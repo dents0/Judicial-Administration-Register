@@ -11,3 +11,33 @@ Deniss Tsokarev
 Description
 -----------
 Parsing the public Register of Judicial Administration (Italy).
+
+Requirements
+------------
+Python 3.6+ 
+
+Modules:
+
+* [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+* [Pandas](https://pandas.pydata.org/pandas-docs/stable/)
+* [Selenium](https://www.seleniumhq.org/docs/)
+
+How it works
+------------
+1) Running **admin_reg.py** creates a Crome session in which the script goes through the [webpage](https://amministratorigiudiziari.giustizia.it/pst/RAG/AlboPubblico.aspx)'s first tab *(Sezione Ordinaria)* and parses it's data. Then, the session ends.
+#
+2) After that, another Chrome session starts and the second tab *(Sezione Esperti in Gestione Aziendale)* gets parsed. The session terminates thereafter.
+
+![terminal](https://user-images.githubusercontent.com/28843507/56517914-68ac2280-653e-11e9-8eae-a0c9b9320e8a.PNG)
+#
+3) Once the Chrome sessions are finished, the script creates two dataframes *(one for each session's data respectively)* and writes them into the specified Excel file.
+
+![sc1](https://user-images.githubusercontent.com/28843507/56513649-6a241d80-6533-11e9-97e1-6784308e6a20.PNG)
+#
+4) Data from each tab of the parsed webpage will be stored in the Excel file on a separate sheet:
+
+*Sheet 1*
+![sheet1](https://user-images.githubusercontent.com/28843507/56517998-9c874800-653e-11e9-8e33-a61128ce92a8.PNG)
+
+*Sheet 2*
+![sheet2](https://user-images.githubusercontent.com/28843507/56518076-c93b5f80-653e-11e9-8ebb-6002f280419b.PNG)
