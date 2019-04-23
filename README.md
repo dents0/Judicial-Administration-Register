@@ -36,7 +36,7 @@ How it works
 #
 3) Once the Chrome sessions are finished, the script creates two dataframes *(one for each session's data respectively)* and writes them into the specified Excel file.
 
-![sc1](https://user-images.githubusercontent.com/28843507/56513649-6a241d80-6533-11e9-97e1-6784308e6a20.PNG)
+![sc1](https://user-images.githubusercontent.com/28843507/56607484-eb011900-6608-11e9-819e-cc3303058548.PNG)
 #
 4) Data from each tab of the parsed webpage will be stored in the Excel file on a separate sheet:
 
