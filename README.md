@@ -10,7 +10,7 @@ Deniss Tsokarev
 
 Description
 -----------
-This script uses Python modules **Beautiful Soup**, **Pandas** and **Selenium** to parse the registers and lists of the **Ministry of Justice** of Italy *([Ministero della Giustizia](https://amministratorigiudiziari.giustizia.it/pst/RAG/AlboPubblico.aspx))*.
+This script uses Python modules **Beautiful Soup**, **Pandas** and **Selenium** to parse public registers and lists of the **Ministry of Justice** of Italy *([Ministero della Giustizia](https://amministratorigiudiziari.giustizia.it/pst/RAG/AlboPubblico.aspx))*.
 
 The script grabs data from 2 main tabs of the webpage: **Sezione Ordinaria** and **Sezione Esperti in Gestione Aziendale**, each of which contains a few dozens of pages with data.
 
