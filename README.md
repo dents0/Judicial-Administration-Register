@@ -1,6 +1,6 @@
 Parsing a Register of Judicial Administration
 =============================================
-Licensing information: READ LICENSE
+Licensing information: READ LICENCE
 ----
 Project source can be downloaded from https://github.com/dents0/Judicial-Administration-Register.git
 ----
